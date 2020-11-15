@@ -36,7 +36,7 @@ margin-right: 0;
 .menu__item:hover{
   opacity: .5;
 }
-.menu__item:hover:after{ 
+.menu__item:hover:after{
   position: absolute;
   display:block;
   content:"";
@@ -71,4 +71,16 @@ margin-right: 0;
 }
 .logo__circle_color_dark-blue{
   background: #0056EC;
+}
+.main-content{
+  padding-top: 100px;
+  width: 37%;
+}
+.main-content__title{
+  margin: 0 0 40px 0;
+  font: bold 50px/65px pt_serif, arial,helvetica, sans-serif;
+}
+.main-content__subtitle{
+  margin: 0 0 41px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
