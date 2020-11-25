@@ -9,11 +9,19 @@
   display: flex;
   justify-content: space-between;
 }
+
+.logo{
+  padding: 40px 0;
+}
 .menu{
   display: flex;
   align-items: center;
 }
 .menu__item{
+  padding: 0 13px;
+}
+.menu__item:last-child{
+padding-right: 0;
   position:relative;
   margin-right: 26px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
